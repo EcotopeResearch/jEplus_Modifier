@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="12.0.2" class="java.beans.XMLDecoder">
+ <object class="jeplus.JEPlusProject" id="JEPlusProject0">
+  <void property="DCKDir">
+   <string>.././</string>
+  </void>
+  <void property="IDFTemplate">
+   <string>common_hp_heatedbsmtIECC_2012_V8.7_jEPlus.idf</string>
+  </void>
+  <void property="RVIFile">
+   <string>Output.rvi</string>
+  </void>
+  <void property="baseDir">
+   <string>C:\jEPlus_v1.7.2\jEPlus_v1.7.2\test\</string>
+  </void>
+  <void property="execSettings">
+   <void property="jobListFile">
+    <string>C:\jEPlus_v1.7.2\jEPlus_v1.7.2\test\test_input.csv</string>
+   </void>
+   <void property="numThreads">
+    <int>11</int>
+   </void>
+   <void property="numberOfJobs">
+    <int>5005</int>
+   </void>
+   <void property="parentDir">
+    <string>C:\jEPlus_v1.7.2\jEPlus_v1.7.2\test\</string>
+   </void>
+   <void property="subSet">
+    <int>0</int>
+   </void>
+  </void>
+
+<!-- TEXT 4 - ADD FIRST PARAMETER DEFINITION -->
+
+  <void id="DefaultMutableTreeNode0" property="paramTree">
+   <void id="ParameterItem0" property="userObject">
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Name</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <string>Wall U</string>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Type</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Description</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <string>wall u-value</string>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>SearchString</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <string>@@WALLU@@</string>
+     </void>
+    </void>
+    <void property="valuesString">
+     <string>@sample(u,0,2,2)</string>
+    </void>
+   </void>
+
+<!-- TEXT 4: END -->
+
+<!-- TEXT 1 - ADD OTHER PARAMETER DEFINITIONS -->
+
+<!-- TEXT 1: END -->
+
+<!-- TEXT 3 - ADD OBJECT/VOID TEXT -->
+
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+</object>
+</void>
+
+<!-- TEXT 3: END -->
+
+  </void>
+  <void property="parameters">
+
+<!-- TEXT 2 - ADD METHODS TO ADD PARAMETERS -->
+
+<void method="add">
+ <object idref="ParameterItem1"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem2"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem3"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem4"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem5"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem6"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem7"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem8"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem9"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem10"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem11"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem12"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem13"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem14"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem15"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem16"/>
+</void>
+<void method="add">
+ <object idref="ParameterItem17"/>
+</void>
+
+<!-- TEXT 2: END -->
+
+  </void>
+  <void property="rvx">
+   <object class="jeplus.data.RVX">
+    <void property="RVIs">
+     <array class="jeplus.data.RVX_RVIitem" length="1">
+      <void index="0">
+       <object class="jeplus.data.RVX_RVIitem">
+        <void property="fileName">
+         <string>C:\jEPlus_v1.7.2\jEPlus_v1.7.2\test\Output.rvi</string>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+  <void property="weatherDir">
+   <string>../weather_files/</string>
+  </void>
+  <void property="weatherFile">
+   <string>USA_WA_Seattle-Tacoma.Intl.AP.727930_TMY3.epw</string>
+  </void>
+ </object>
+</java>

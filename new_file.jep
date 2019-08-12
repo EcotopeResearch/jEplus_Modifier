@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="12.0.2" class="java.beans.XMLDecoder">
+ <object class="jeplus.JEPlusProject" id="JEPlusProject0">
+  <void property="DCKDir">
+   <string>.././</string>
+  </void>
+  <void property="IDFTemplate">
+   <string>common_hp_heatedbsmtIECC_2012_V8.7_jEPlus.idf</string>
+  </void>
+  <void property="RVIFile">
+   <string>Output.rvi</string>
+  </void>
+  <void property="baseDir">
+   <string>C:\Users\scott\github\jEplus_Modifier\</string>
+  </void>
+  <void property="execSettings">
+   <void property="jobListFile">
+    <string>C:\jEPlus_v1.7.2\jEPlus_v1.7.2\test\test_input.csv</string>
+   </void>
+   <void property="numThreads">
+    <int>11</int>
+   </void>
+   <void property="numberOfJobs">
+    <int>5005</int>
+   </void>
+   <void property="parentDir">
+    <string>C:\jEPlus_v1.7.2\jEPlus_v1.7.2\test\</string>
+   </void>
+   <void property="subSet">
+    <int>0</int>
+   </void>
+  </void>
+  <void id="DefaultMutableTreeNode0" property="paramTree">
+   <void id="ParameterItem0" property="userObject">
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Name</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <string>Wall U</string>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Type</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Description</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <string>wall u-value</string>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>SearchString</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <string>@@WALLU@@</string>
+     </void>
+    </void>
+    <void property="valuesString">
+     <string>@sample(u,0,2,2)</string>
+    </void>
+   </void>
+   <void method="add">
+    <object class="javax.swing.tree.DefaultMutableTreeNode">
+     <void property="userObject">
+      <object class="jeplus.data.ParameterItem" id="ParameterItem1">
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>Name</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <string>Exterior wall U-value</string>
+        </void>
+       </void>
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>Type</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <int>1</int>
+        </void>
+       </void>
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>Description</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <string>Description</string>
+        </void>
+       </void>
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>SearchString</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <string>@@WALLU@@</string>
+        </void>
+       </void>
+       <void property="project">
+        <object idref="JEPlusProject0"/>
+       </void>
+       <void property="valuesString">
+        <string>@sample(n,0,2,2)</string>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="javax.swing.tree.DefaultMutableTreeNode">
+       <void property="userObject">
+        <object class="jeplus.data.ParameterItem" id="ParameterItem2">
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>ID</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <string>P2</string>
+          </void>
+         </void>
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>Name</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <string>Ceiling U-value</string>
+          </void>
+         </void>
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>Type</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <int>1</int>
+          </void>
+         </void>
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>Description</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <string>Description</string>
+          </void>
+         </void>
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>SearchString</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <string>@@CEILINGU@@</string>
+          </void>
+         </void>
+         <void property="project">
+          <object idref="JEPlusProject0"/>
+         </void>
+         <void property="valuesString">
+          <string>@sample(n,0,2,2)</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="javax.swing.tree.DefaultMutableTreeNode">
+         <void property="userObject">
+          <object class="jeplus.data.ParameterItem" id="ParameterItem3">
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>ID</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <string>P3</string>
+            </void>
+           </void>
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>Name</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <string>Slab U-value</string>
+            </void>
+           </void>
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>Type</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <int>1</int>
+            </void>
+           </void>
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>Description</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <string>Description</string>
+            </void>
+           </void>
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>SearchString</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <string>@@SLABU@@</string>
+            </void>
+           </void>
+           <void property="project">
+            <object idref="JEPlusProject0"/>
+           </void>
+           <void property="valuesString">
+            <string>@sample(n,0,2,2)</string>
+           </void>
+          </object>
+         </void>
+         <void method="add">
+          <object class="javax.swing.tree.DefaultMutableTreeNode">
+           <void property="userObject">
+            <object class="jeplus.data.ParameterItem" id="ParameterItem4">
+             <void class="jeplus.data.ParameterItem" method="getField">
+              <string>ID</string>
+              <void method="set">
+               <object idref="ParameterItem4"/>
+               <string>P4</string>
+              </void>
+             </void>
+             <void class="jeplus.data.ParameterItem" method="getField">
+              <string>Name</string>
+              <void method="set">
+               <object idref="ParameterItem4"/>
+               <string>bsmt wall U-value</string>
+              </void>
+             </void>
+             <void class="jeplus.data.ParameterItem" method="getField">
+              <string>Type</string>
+              <void method="set">
+               <object idref="ParameterItem4"/>
+               <int>1</int>
+              </void>
+             </void>
+             <void class="jeplus.data.ParameterItem" method="getField">
+              <string>Description</string>
+              <void method="set">
+               <object idref="ParameterItem4"/>
+               <string>Description</string>
+              </void>
+             </void>
+             <void class="jeplus.data.ParameterItem" method="getField">
+              <string>SearchString</string>
+              <void method="set">
+               <object idref="ParameterItem4"/>
+               <string>@@BSMTWU@@</string>
+              </void>
+             </void>
+             <void property="project">
+              <object idref="JEPlusProject0"/>
+             </void>
+             <void property="valuesString">
+              <string>@sample(n,0,2,2)</string>
+             </void>
+            </object>
+           </void>
+           <void method="add">
+            <object class="javax.swing.tree.DefaultMutableTreeNode">
+             <void property="userObject">
+              <object class="jeplus.data.ParameterItem" id="ParameterItem5">
+               <void class="jeplus.data.ParameterItem" method="getField">
+                <string>ID</string>
+                <void method="set">
+                 <object idref="ParameterItem5"/>
+                 <string>P5</string>
+                </void>
+               </void>
+               <void class="jeplus.data.ParameterItem" method="getField">
+                <string>Name</string>
+                <void method="set">
+                 <object idref="ParameterItem5"/>
+                 <string>Floor U-value</string>
+                </void>
+               </void>
+               <void class="jeplus.data.ParameterItem" method="getField">
+                <string>Type</string>
+                <void method="set">
+                 <object idref="ParameterItem5"/>
+                 <int>1</int>
+                </void>
+               </void>
+               <void class="jeplus.data.ParameterItem" method="getField">
+                <string>Description</string>
+                <void method="set">
+                 <object idref="ParameterItem5"/>
+                 <string>Description</string>
+                </void>
+               </void>
+               <void class="jeplus.data.ParameterItem" method="getField">
+                <string>SearchString</string>
+                <void method="set">
+                 <object idref="ParameterItem5"/>
+                 <string>@@FLOORU@@</string>
+                </void>
+               </void>
+               <void property="project">
+                <object idref="JEPlusProject0"/>
+               </void>
+               <void property="valuesString">
+                <string>@sample(n,0,2,2)</string>
+               </void>
+              </object>
+             </void>
+             <void method="add">
+              <object class="javax.swing.tree.DefaultMutableTreeNode">
+               <void property="userObject">
+                <object class="jeplus.data.ParameterItem" id="ParameterItem6">
+                 <void class="jeplus.data.ParameterItem" method="getField">
+                  <string>ID</string>
+                  <void method="set">
+                   <object idref="ParameterItem6"/>
+                   <string>P6</string>
+                  </void>
+                 </void>
+                 <void class="jeplus.data.ParameterItem" method="getField">
+                  <string>Name</string>
+                  <void method="set">
+                   <object idref="ParameterItem6"/>
+                   <string>Windows U-value</string>
+                  </void>
+                 </void>
+                 <void class="jeplus.data.ParameterItem" method="getField">
+                  <string>Type</string>
+                  <void method="set">
+                   <object idref="ParameterItem6"/>
+                   <int>1</int>
+                  </void>
+                 </void>
+                 <void class="jeplus.data.ParameterItem" method="getField">
+                  <string>Description</string>
+                  <void method="set">
+                   <object idref="ParameterItem6"/>
+                   <string>Description</string>
+                  </void>
+                 </void>
+                 <void class="jeplus.data.ParameterItem" method="getField">
+                  <string>SearchString</string>
+                  <void method="set">
+                   <object idref="ParameterItem6"/>
+                   <string>@@WINU@@</string>
+                  </void>
+                 </void>
+                 <void property="project">
+                  <object idref="JEPlusProject0"/>
+                 </void>
+                 <void property="valuesString">
+                  <string>@sample(n,0,2,2)</string>
+                 </void>
+                </object>
+               </void>
+               <void method="add">
+                <object class="javax.swing.tree.DefaultMutableTreeNode">
+                 <void property="userObject">
+                  <object class="jeplus.data.ParameterItem" id="ParameterItem7">
+                   <void class="jeplus.data.ParameterItem" method="getField">
+                    <string>ID</string>
+                    <void method="set">
+                     <object idref="ParameterItem7"/>
+                     <string>P7</string>
+                    </void>
+                   </void>
+                   <void class="jeplus.data.ParameterItem" method="getField">
+                    <string>Name</string>
+                    <void method="set">
+                     <object idref="ParameterItem7"/>
+                     <string>Windows SHGC</string>
+                    </void>
+                   </void>
+                   <void class="jeplus.data.ParameterItem" method="getField">
+                    <string>Type</string>
+                    <void method="set">
+                     <object idref="ParameterItem7"/>
+                     <int>1</int>
+                    </void>
+                   </void>
+                   <void class="jeplus.data.ParameterItem" method="getField">
+                    <string>Description</string>
+                    <void method="set">
+                     <object idref="ParameterItem7"/>
+                     <string>Description</string>
+                    </void>
+                   </void>
+                   <void class="jeplus.data.ParameterItem" method="getField">
+                    <string>SearchString</string>
+                    <void method="set">
+                     <object idref="ParameterItem7"/>
+                     <string>@@SHGC@@</string>
+                    </void>
+                   </void>
+                   <void property="project">
+                    <object idref="JEPlusProject0"/>
+                   </void>
+                   <void property="valuesString">
+                    <string>@sample(n,0,2,2)</string>
+                   </void>
+                  </object>
+                 </void>
+                 <void method="add">
+                  <object class="javax.swing.tree.DefaultMutableTreeNode">
+                   <void property="userObject">
+                    <object class="jeplus.data.ParameterItem" id="ParameterItem8">
+                     <void class="jeplus.data.ParameterItem" method="getField">
+                      <string>ID</string>
+                      <void method="set">
+                       <object idref="ParameterItem8"/>
+                       <string>P8</string>
+                      </void>
+                     </void>
+                     <void class="jeplus.data.ParameterItem" method="getField">
+                      <string>Name</string>
+                      <void method="set">
+                       <object idref="ParameterItem8"/>
+                       <string>Lighting Stairwell (W)</string>
+                      </void>
+                     </void>
+                     <void class="jeplus.data.ParameterItem" method="getField">
+                      <string>Type</string>
+                      <void method="set">
+                       <object idref="ParameterItem8"/>
+                       <int>1</int>
+                      </void>
+                     </void>
+                     <void class="jeplus.data.ParameterItem" method="getField">
+                      <string>Description</string>
+                      <void method="set">
+                       <object idref="ParameterItem8"/>
+                       <string>Description</string>
+                      </void>
+                     </void>
+                     <void class="jeplus.data.ParameterItem" method="getField">
+                      <string>SearchString</string>
+                      <void method="set">
+                       <object idref="ParameterItem8"/>
+                       <string>@@LTGSTR@@</string>
+                      </void>
+                     </void>
+                     <void property="project">
+                      <object idref="JEPlusProject0"/>
+                     </void>
+                     <void property="valuesString">
+                      <string>@sample(n,0,2,2)</string>
+                     </void>
+                    </object>
+                   </void>
+                   <void method="add">
+                    <object class="javax.swing.tree.DefaultMutableTreeNode">
+                     <void property="userObject">
+                      <object class="jeplus.data.ParameterItem" id="ParameterItem9">
+                       <void class="jeplus.data.ParameterItem" method="getField">
+                        <string>ID</string>
+                        <void method="set">
+                         <object idref="ParameterItem9"/>
+                         <string>P9</string>
+                        </void>
+                       </void>
+                       <void class="jeplus.data.ParameterItem" method="getField">
+                        <string>Name</string>
+                        <void method="set">
+                         <object idref="ParameterItem9"/>
+                         <string>exterior corridor LPD (W)</string>
+                        </void>
+                       </void>
+                       <void class="jeplus.data.ParameterItem" method="getField">
+                        <string>Type</string>
+                        <void method="set">
+                         <object idref="ParameterItem9"/>
+                         <int>1</int>
+                        </void>
+                       </void>
+                       <void class="jeplus.data.ParameterItem" method="getField">
+                        <string>Description</string>
+                        <void method="set">
+                         <object idref="ParameterItem9"/>
+                         <string>Description</string>
+                        </void>
+                       </void>
+                       <void class="jeplus.data.ParameterItem" method="getField">
+                        <string>SearchString</string>
+                        <void method="set">
+                         <object idref="ParameterItem9"/>
+                         <string>@@LTGEXTCOR@@</string>
+                        </void>
+                       </void>
+                       <void property="project">
+                        <object idref="JEPlusProject0"/>
+                       </void>
+                       <void property="valuesString">
+                        <string>@sample(n,0,2,2)</string>
+                       </void>
+                      </object>
+                     </void>
+                     <void method="add">
+                      <object class="javax.swing.tree.DefaultMutableTreeNode">
+                       <void property="userObject">
+                        <object class="jeplus.data.ParameterItem" id="ParameterItem10">
+                         <void class="jeplus.data.ParameterItem" method="getField">
+                          <string>ID</string>
+                          <void method="set">
+                           <object idref="ParameterItem10"/>
+                           <string>P10</string>
+                          </void>
+                         </void>
+                         <void class="jeplus.data.ParameterItem" method="getField">
+                          <string>Name</string>
+                          <void method="set">
+                           <object idref="ParameterItem10"/>
+                           <string>internal parking LPD (W/sf)</string>
+                          </void>
+                         </void>
+                         <void class="jeplus.data.ParameterItem" method="getField">
+                          <string>Type</string>
+                          <void method="set">
+                           <object idref="ParameterItem10"/>
+                           <int>1</int>
+                          </void>
+                         </void>
+                         <void class="jeplus.data.ParameterItem" method="getField">
+                          <string>Description</string>
+                          <void method="set">
+                           <object idref="ParameterItem10"/>
+                           <string>Description</string>
+                          </void>
+                         </void>
+                         <void class="jeplus.data.ParameterItem" method="getField">
+                          <string>SearchString</string>
+                          <void method="set">
+                           <object idref="ParameterItem10"/>
+                           <string>@@LTGINTPKG@@</string>
+                          </void>
+                         </void>
+                         <void property="project">
+                          <object idref="JEPlusProject0"/>
+                         </void>
+                         <void property="valuesString">
+                          <string>@sample(n,0,2,2)</string>
+                         </void>
+                        </object>
+                       </void>
+                       <void method="add">
+                        <object class="javax.swing.tree.DefaultMutableTreeNode">
+                         <void property="userObject">
+                          <object class="jeplus.data.ParameterItem" id="ParameterItem11">
+                           <void class="jeplus.data.ParameterItem" method="getField">
+                            <string>ID</string>
+                            <void method="set">
+                             <object idref="ParameterItem11"/>
+                             <string>P11</string>
+                            </void>
+                           </void>
+                           <void class="jeplus.data.ParameterItem" method="getField">
+                            <string>Name</string>
+                            <void method="set">
+                             <object idref="ParameterItem11"/>
+                             <string>external parking LPD (W/sf)</string>
+                            </void>
+                           </void>
+                           <void class="jeplus.data.ParameterItem" method="getField">
+                            <string>Type</string>
+                            <void method="set">
+                             <object idref="ParameterItem11"/>
+                             <int>1</int>
+                            </void>
+                           </void>
+                           <void class="jeplus.data.ParameterItem" method="getField">
+                            <string>Description</string>
+                            <void method="set">
+                             <object idref="ParameterItem11"/>
+                             <string>Description</string>
+                            </void>
+                           </void>
+                           <void class="jeplus.data.ParameterItem" method="getField">
+                            <string>SearchString</string>
+                            <void method="set">
+                             <object idref="ParameterItem11"/>
+                             <string>@@LTGEXTPKG@@</string>
+                            </void>
+                           </void>
+                           <void property="project">
+                            <object idref="JEPlusProject0"/>
+                           </void>
+                           <void property="valuesString">
+                            <string>@sample(n,0,2,2)</string>
+                           </void>
+                          </object>
+                         </void>
+                         <void method="add">
+                          <object class="javax.swing.tree.DefaultMutableTreeNode">
+                           <void property="userObject">
+                            <object class="jeplus.data.ParameterItem" id="ParameterItem12">
+                             <void class="jeplus.data.ParameterItem" method="getField">
+                              <string>ID</string>
+                              <void method="set">
+                               <object idref="ParameterItem12"/>
+                               <string>P12</string>
+                              </void>
+                             </void>
+                             <void class="jeplus.data.ParameterItem" method="getField">
+                              <string>Name</string>
+                              <void method="set">
+                               <object idref="ParameterItem12"/>
+                               <string>in-unit heating setpoint temp (F)</string>
+                              </void>
+                             </void>
+                             <void class="jeplus.data.ParameterItem" method="getField">
+                              <string>Type</string>
+                              <void method="set">
+                               <object idref="ParameterItem12"/>
+                               <int>1</int>
+                              </void>
+                             </void>
+                             <void class="jeplus.data.ParameterItem" method="getField">
+                              <string>Description</string>
+                              <void method="set">
+                               <object idref="ParameterItem12"/>
+                               <string>Description</string>
+                              </void>
+                             </void>
+                             <void class="jeplus.data.ParameterItem" method="getField">
+                              <string>SearchString</string>
+                              <void method="set">
+                               <object idref="ParameterItem12"/>
+                               <string>@@UNITHTST@@</string>
+                              </void>
+                             </void>
+                             <void property="project">
+                              <object idref="JEPlusProject0"/>
+                             </void>
+                             <void property="valuesString">
+                              <string>@sample(n,0,2,2)</string>
+                             </void>
+                            </object>
+                           </void>
+                           <void method="add">
+                            <object class="javax.swing.tree.DefaultMutableTreeNode">
+                             <void property="userObject">
+                              <object class="jeplus.data.ParameterItem" id="ParameterItem13">
+                               <void class="jeplus.data.ParameterItem" method="getField">
+                                <string>ID</string>
+                                <void method="set">
+                                 <object idref="ParameterItem13"/>
+                                 <string>P13</string>
+                                </void>
+                               </void>
+                               <void class="jeplus.data.ParameterItem" method="getField">
+                                <string>Name</string>
+                                <void method="set">
+                                 <object idref="ParameterItem13"/>
+                                 <string>In-unit cooling setpoint temp (F)</string>
+                                </void>
+                               </void>
+                               <void class="jeplus.data.ParameterItem" method="getField">
+                                <string>Type</string>
+                                <void method="set">
+                                 <object idref="ParameterItem13"/>
+                                 <int>1</int>
+                                </void>
+                               </void>
+                               <void class="jeplus.data.ParameterItem" method="getField">
+                                <string>Description</string>
+                                <void method="set">
+                                 <object idref="ParameterItem13"/>
+                                 <string>Description</string>
+                                </void>
+                               </void>
+                               <void class="jeplus.data.ParameterItem" method="getField">
+                                <string>SearchString</string>
+                                <void method="set">
+                                 <object idref="ParameterItem13"/>
+                                 <string>@@UNITCLST@@</string>
+                                </void>
+                               </void>
+                               <void property="project">
+                                <object idref="JEPlusProject0"/>
+                               </void>
+                               <void property="valuesString">
+                                <string>@sample(n,0,2,2)</string>
+                               </void>
+                              </object>
+                             </void>
+                             <void method="add">
+                              <object class="javax.swing.tree.DefaultMutableTreeNode">
+                               <void property="userObject">
+                                <object class="jeplus.data.ParameterItem" id="ParameterItem14">
+                                 <void class="jeplus.data.ParameterItem" method="getField">
+                                  <string>ID</string>
+                                  <void method="set">
+                                   <object idref="ParameterItem14"/>
+                                   <string>P14</string>
+                                  </void>
+                                 </void>
+                                 <void class="jeplus.data.ParameterItem" method="getField">
+                                  <string>Name</string>
+                                  <void method="set">
+                                   <object idref="ParameterItem14"/>
+                                   <string>Corridor heating setpoint temp (F)</string>
+                                  </void>
+                                 </void>
+                                 <void class="jeplus.data.ParameterItem" method="getField">
+                                  <string>Type</string>
+                                  <void method="set">
+                                   <object idref="ParameterItem14"/>
+                                   <int>1</int>
+                                  </void>
+                                 </void>
+                                 <void class="jeplus.data.ParameterItem" method="getField">
+                                  <string>Description</string>
+                                  <void method="set">
+                                   <object idref="ParameterItem14"/>
+                                   <string>Description</string>
+                                  </void>
+                                 </void>
+                                 <void class="jeplus.data.ParameterItem" method="getField">
+                                  <string>SearchString</string>
+                                  <void method="set">
+                                   <object idref="ParameterItem14"/>
+                                   <string>@@CORHTST@@</string>
+                                  </void>
+                                 </void>
+                                 <void property="project">
+                                  <object idref="JEPlusProject0"/>
+                                 </void>
+                                 <void property="valuesString">
+                                  <string>@sample(n,0,2,2)</string>
+                                 </void>
+                                </object>
+                               </void>
+                               <void method="add">
+                                <object class="javax.swing.tree.DefaultMutableTreeNode">
+                                 <void property="userObject">
+                                  <object class="jeplus.data.ParameterItem" id="ParameterItem15">
+                                   <void class="jeplus.data.ParameterItem" method="getField">
+                                    <string>ID</string>
+                                    <void method="set">
+                                     <object idref="ParameterItem15"/>
+                                     <string>P15</string>
+                                    </void>
+                                   </void>
+                                   <void class="jeplus.data.ParameterItem" method="getField">
+                                    <string>Name</string>
+                                    <void method="set">
+                                     <object idref="ParameterItem15"/>
+                                     <string>Corridor cooling setpoint temp (F)</string>
+                                    </void>
+                                   </void>
+                                   <void class="jeplus.data.ParameterItem" method="getField">
+                                    <string>Type</string>
+                                    <void method="set">
+                                     <object idref="ParameterItem15"/>
+                                     <int>1</int>
+                                    </void>
+                                   </void>
+                                   <void class="jeplus.data.ParameterItem" method="getField">
+                                    <string>Description</string>
+                                    <void method="set">
+                                     <object idref="ParameterItem15"/>
+                                     <string>Description</string>
+                                    </void>
+                                   </void>
+                                   <void class="jeplus.data.ParameterItem" method="getField">
+                                    <string>SearchString</string>
+                                    <void method="set">
+                                     <object idref="ParameterItem15"/>
+                                     <string>@@CORCLST@@</string>
+                                    </void>
+                                   </void>
+                                   <void property="project">
+                                    <object idref="JEPlusProject0"/>
+                                   </void>
+                                   <void property="valuesString">
+                                    <string>@sample(n,0,2,2)</string>
+                                   </void>
+                                  </object>
+                                 </void>
+                                 <void method="add">
+                                  <object class="javax.swing.tree.DefaultMutableTreeNode">
+                                   <void property="userObject">
+                                    <object class="jeplus.data.ParameterItem" id="ParameterItem16">
+                                     <void class="jeplus.data.ParameterItem" method="getField">
+                                      <string>ID</string>
+                                      <void method="set">
+                                       <object idref="ParameterItem16"/>
+                                       <string>P16</string>
+                                      </void>
+                                     </void>
+                                     <void class="jeplus.data.ParameterItem" method="getField">
+                                      <string>Name</string>
+                                      <void method="set">
+                                       <object idref="ParameterItem16"/>
+                                       <string>bsmt heating setpoint temp (F)</string>
+                                      </void>
+                                     </void>
+                                     <void class="jeplus.data.ParameterItem" method="getField">
+                                      <string>Type</string>
+                                      <void method="set">
+                                       <object idref="ParameterItem16"/>
+                                       <int>1</int>
+                                      </void>
+                                     </void>
+                                     <void class="jeplus.data.ParameterItem" method="getField">
+                                      <string>Description</string>
+                                      <void method="set">
+                                       <object idref="ParameterItem16"/>
+                                       <string>Description</string>
+                                      </void>
+                                     </void>
+                                     <void class="jeplus.data.ParameterItem" method="getField">
+                                      <string>SearchString</string>
+                                      <void method="set">
+                                       <object idref="ParameterItem16"/>
+                                       <string>@@BSMTHTST@@</string>
+                                      </void>
+                                     </void>
+                                     <void property="project">
+                                      <object idref="JEPlusProject0"/>
+                                     </void>
+                                     <void property="valuesString">
+                                      <string>@sample(n,0,2,2)</string>
+                                     </void>
+                                    </object>
+                                   </void>
+                                   <void method="add">
+                                    <object class="javax.swing.tree.DefaultMutableTreeNode">
+                                     <void property="userObject">
+                                      <object class="jeplus.data.ParameterItem" id="ParameterItem17">
+                                       <void class="jeplus.data.ParameterItem" method="getField">
+                                        <string>ID</string>
+                                        <void method="set">
+                                         <object idref="ParameterItem17"/>
+                                         <string>P17</string>
+                                        </void>
+                                       </void>
+                                       <void class="jeplus.data.ParameterItem" method="getField">
+                                        <string>Name</string>
+                                        <void method="set">
+                                         <object idref="ParameterItem17"/>
+                                         <string>bsmt cooling setpoint temp (F)</string>
+                                        </void>
+                                       </void>
+                                       <void class="jeplus.data.ParameterItem" method="getField">
+                                        <string>Type</string>
+                                        <void method="set">
+                                         <object idref="ParameterItem17"/>
+                                         <int>1</int>
+                                        </void>
+                                       </void>
+                                       <void class="jeplus.data.ParameterItem" method="getField">
+                                        <string>Description</string>
+                                        <void method="set">
+                                         <object idref="ParameterItem17"/>
+                                         <string>Description</string>
+                                        </void>
+                                       </void>
+                                       <void class="jeplus.data.ParameterItem" method="getField">
+                                        <string>SearchString</string>
+                                        <void method="set">
+                                         <object idref="ParameterItem17"/>
+                                         <string>@@BSMTCLST@@</string>
+                                        </void>
+                                       </void>
+                                       <void property="project">
+                                        <object idref="JEPlusProject0"/>
+                                       </void>
+                                       <void property="valuesString">
+                                        <string>@sample(n,0,2,2)</string>
+                                       </void>
+                                      </object>
+                                     </void>
+                                    </object>
+                                   </void>
+                                  </object>
+                                 </void>
+                                </object>
+                               </void>
+                              </object>
+                             </void>
+                            </object>
+                           </void>
+                          </object>
+                         </void>
+                        </object>
+                       </void>
+                      </object>
+                     </void>
+                    </object>
+                   </void>
+                  </object>
+                 </void>
+                </object>
+               </void>
+              </object>
+             </void>
+            </object>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="parameters">
+   <void method="add">
+    <object idref="ParameterItem1"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem2"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem3"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem4"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem5"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem6"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem7"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem8"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem9"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem10"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem11"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem12"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem13"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem14"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem15"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem16"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem17"/>
+   </void>
+  </void>
+  <void property="rvx">
+   <object class="jeplus.data.RVX">
+    <void property="RVIs">
+     <array class="jeplus.data.RVX_RVIitem" length="1">
+      <void index="0">
+       <object class="jeplus.data.RVX_RVIitem">
+        <void property="fileName">
+         <string>C:\Users\scott\github\jEplus_Modifier\Output.rvi</string>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+  <void property="weatherDir">
+   <string>../weather_files/</string>
+  </void>
+  <void property="weatherFile">
+   <string>USA_WA_Seattle-Tacoma.Intl.AP.727930_TMY3.epw</string>
+  </void>
+ </object>
+</java>
