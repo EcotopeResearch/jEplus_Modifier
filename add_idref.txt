@@ -1,3 +1,0 @@
-   <void method="add">
-    <object idref="ParameterItem(Number)"/>
-   </void>
