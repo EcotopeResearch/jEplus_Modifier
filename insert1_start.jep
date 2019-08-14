@@ -1,0 +1,34 @@
+<void id="DefaultMutableTreeNode0" property="paramTree">
+ <void id="ParameterItem0" property="userObject">
+  <void class="jeplus.data.ParameterItem" method="getField">
+   <string>Name</string>
+   <void method="set">
+    <object idref="ParameterItem0"/>
+    <string>(Name)</string>
+   </void>
+  </void>
+  <void class="jeplus.data.ParameterItem" method="getField">
+   <string>Type</string>
+   <void method="set">
+    <object idref="ParameterItem0"/>
+    <int>1</int>
+   </void>
+  </void>
+  <void class="jeplus.data.ParameterItem" method="getField">
+   <string>Description</string>
+   <void method="set">
+    <object idref="ParameterItem0"/>
+    <string>(Description_String)</string>
+   </void>
+  </void>
+  <void class="jeplus.data.ParameterItem" method="getField">
+   <string>SearchString</string>
+   <void method="set">
+    <object idref="ParameterItem0"/>
+    <string>(search_tag)</string>
+   </void>
+  </void>
+  <void property="valuesString">
+   <string>@sample(u,0,2,2)</string>
+  </void>
+ </void>

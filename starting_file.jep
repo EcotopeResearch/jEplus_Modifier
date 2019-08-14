@@ -76,99 +76,12 @@
 
 <!-- TEXT 3 - ADD OBJECT/VOID TEXT -->
 
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-</object>
-</void>
-
 <!-- TEXT 3: END -->
 
   </void>
   <void property="parameters">
 
 <!-- TEXT 2 - ADD METHODS TO ADD PARAMETERS -->
-
-<void method="add">
- <object idref="ParameterItem1"/>
-</void>
-<void method="add">
- <object idref="ParameterItem2"/>
-</void>
-<void method="add">
- <object idref="ParameterItem3"/>
-</void>
-<void method="add">
- <object idref="ParameterItem4"/>
-</void>
-<void method="add">
- <object idref="ParameterItem5"/>
-</void>
-<void method="add">
- <object idref="ParameterItem6"/>
-</void>
-<void method="add">
- <object idref="ParameterItem7"/>
-</void>
-<void method="add">
- <object idref="ParameterItem8"/>
-</void>
-<void method="add">
- <object idref="ParameterItem9"/>
-</void>
-<void method="add">
- <object idref="ParameterItem10"/>
-</void>
-<void method="add">
- <object idref="ParameterItem11"/>
-</void>
-<void method="add">
- <object idref="ParameterItem12"/>
-</void>
-<void method="add">
- <object idref="ParameterItem13"/>
-</void>
-<void method="add">
- <object idref="ParameterItem14"/>
-</void>
-<void method="add">
- <object idref="ParameterItem15"/>
-</void>
-<void method="add">
- <object idref="ParameterItem16"/>
-</void>
-<void method="add">
- <object idref="ParameterItem17"/>
-</void>
 
 <!-- TEXT 2: END -->
 

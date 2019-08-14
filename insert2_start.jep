@@ -1,0 +1,47 @@
+<void method="add">
+ <object class="javax.swing.tree.DefaultMutableTreeNode">
+  <void property="userObject">
+   <object class="jeplus.data.ParameterItem" id="ParameterItem(Number)">
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>ID</string>
+     <void method="set">
+      <object idref="ParameterItem(Number)"/>
+      <string>P(Number)</string>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Name</string>
+     <void method="set">
+      <object idref="ParameterItem(Number)"/>
+      <string>(Name)</string>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Type</string>
+     <void method="set">
+      <object idref="ParameterItem(Number)"/>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Description</string>
+     <void method="set">
+      <object idref="ParameterItem(Number)"/>
+      <string>(Description_String)</string>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>SearchString</string>
+     <void method="set">
+      <object idref="ParameterItem(Number)"/>
+      <string>(search_tag)</string>
+     </void>
+    </void>
+    <void property="project">
+     <object idref="JEPlusProject0"/>
+    </void>
+    <void property="valuesString">
+     <string>@sample(n,0,2,2)</string>
+   </void>
+  </object>
+ </void>

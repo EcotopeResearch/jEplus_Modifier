@@ -1,7 +1,4 @@
    <void method="add">
-    <object idref="ParameterItem1"/>
-   </void>
-   <void method="add">
     <object idref="ParameterItem2"/>
    </void>
    <void method="add">
