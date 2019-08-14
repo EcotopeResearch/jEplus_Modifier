@@ -31,59 +31,24 @@
    </void>
   </void>
 
-<!-- TEXT 4 - ADD FIRST PARAMETER DEFINITION -->
+<!-- Insert 1 -->
 
-  <void id="DefaultMutableTreeNode0" property="paramTree">
-   <void id="ParameterItem0" property="userObject">
-    <void class="jeplus.data.ParameterItem" method="getField">
-     <string>Name</string>
-     <void method="set">
-      <object idref="ParameterItem0"/>
-      <string>Wall U</string>
-     </void>
-    </void>
-    <void class="jeplus.data.ParameterItem" method="getField">
-     <string>Type</string>
-     <void method="set">
-      <object idref="ParameterItem0"/>
-      <int>1</int>
-     </void>
-    </void>
-    <void class="jeplus.data.ParameterItem" method="getField">
-     <string>Description</string>
-     <void method="set">
-      <object idref="ParameterItem0"/>
-      <string>wall u-value</string>
-     </void>
-    </void>
-    <void class="jeplus.data.ParameterItem" method="getField">
-     <string>SearchString</string>
-     <void method="set">
-      <object idref="ParameterItem0"/>
-      <string>@@WALLU@@</string>
-     </void>
-    </void>
-    <void property="valuesString">
-     <string>@sample(u,0,2,2)</string>
-    </void>
-   </void>
+<!-- END -->
 
-<!-- TEXT 4: END -->
+<!-- Insert 2 -->
 
-<!-- TEXT 1 - ADD OTHER PARAMETER DEFINITIONS -->
+<!-- END -->
 
-<!-- TEXT 1: END -->
+<!-- Insert 3 -->
 
-<!-- TEXT 3 - ADD OBJECT/VOID TEXT -->
-
-<!-- TEXT 3: END -->
+<!-- END -->
 
   </void>
   <void property="parameters">
 
-<!-- TEXT 2 - ADD METHODS TO ADD PARAMETERS -->
+<!-- Insert 4 -->
 
-<!-- TEXT 2: END -->
+<!-- END -->
 
   </void>
   <void property="rvx">
